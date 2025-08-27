@@ -1,0 +1,83 @@
+#,Column,Non-Null Count,Dtype,Description
+44,1st Flr SF,2930,int64,First Floor square feet.
+45,2nd Flr SF,2930,int64,Second floor square feet.
+70,3Ssn Porch,2930,int64,Three season porch area in square feet.
+7,Alley,198,object,Type of alley access to property.
+52,Bedroom AbvGr,2930,int64,Bedrooms above grade (does NOT include basement bedrooms).
+16,Bldg Type,2930,object,Type of dwelling.
+32,Bsmt Cond,2850,object,Evaluates the general condition of the basement.
+33,Bsmt Exposure,2847,object,Refers to walkout or garden level walls.
+48,Bsmt Full Bath,2928,float64,Basement full bathrooms.
+49,Bsmt Half Bath,2928,float64,Basement half bathrooms.
+31,Bsmt Qual,2850,object,Evaluates the height of the basement.
+38,Bsmt Unf SF,2929,float64,Unfinished square feet of basement area.
+35,BsmtFin SF 1,2929,float64,Type 1 finished square feet.
+37,BsmtFin SF 2,2929,float64,Type 2 finished square feet.
+34,BsmtFin Type 1,2850,object,Rating of basement finished area.
+36,BsmtFin Type 2,2849,object,Rating of basement finished area (if multiple types).
+42,Central Air,2930,object,Central air conditioning.
+14,Condition 1,2930,object,Proximity to various conditions.
+15,Condition 2,2930,object,Proximity to various conditions (if more than one is present).
+43,Electrical,2929,object,Electrical system.
+69,Enclosed Porch,2930,int64,Enclosed porch area in square feet.
+29,Exter Cond,2930,object,Evaluates the present condition of the material on the exterior.
+28,Exter Qual,2930,object,Evaluates the quality of the material on the exterior.
+24,Exterior 1st,2930,object,Exterior covering on house.
+25,Exterior 2nd,2930,object,Exterior covering on house (if more than one material).
+74,Fence,572,object,Fence quality.
+58,Fireplace Qu,1508,object,Fireplace quality.
+57,Fireplaces,2930,int64,Number of fireplaces.
+30,Foundation,2930,object,Type of foundation.
+50,Full Bath,2930,int64,Full bathrooms above grade.
+56,Functional,2930,object,Home functionality (Assume typical unless deductions are warranted).
+63,Garage Area,2929,float64,Size of garage in square feet.
+62,Garage Cars,2929,float64,Size of garage in car capacity.
+65,Garage Cond,2771,object,Garage condition.
+61,Garage Finish,2771,object,Interior finish of the garage.
+64,Garage Qual,2771,object,Garage quality.
+59,Garage Type,2773,object,Garage location.
+60,Garage Yr Blt,2771,float64,Year garage was built.
+47,Gr Liv Area,2930,int64,Above grade (ground) living area square feet.
+51,Half Bath,2930,int64,Half baths above grade.
+40,Heating,2930,object,Type of heating.
+41,Heating QC,2930,object,Heating quality and condition.
+17,House Style,2930,object,Style of dwelling.
+53,Kitchen AbvGr,2930,int64,Kitchens above grade.
+54,Kitchen Qual,2930,object,Kitchen quality.
+9,Land Contour,2930,object,Flatness of the property.
+12,Land Slope,2930,object,Slope of property.
+5,Lot Area,2930,int64,Lot size in square feet.
+11,Lot Config,2930,object,Lot configuration.
+4,Lot Frontage,2440,float64,Linear feet of street connected to property.
+8,Lot Shape,2930,object,General shape of property.
+46,Low Qual Fin SF,2930,int64,Low quality finished square feet (all floors).
+27,Mas Vnr Area,2907,float64,Masonry veneer area in square feet.
+26,Mas Vnr Type,1155,object,Masonry veneer type.
+75,Misc Feature,106,object,Miscellaneous feature not covered in other categories.
+76,Misc Val,2930,int64,$Value of miscellaneous feature.
+77,Mo Sold,2930,int64,Month Sold.
+2,MS SubClass,2930,int64,Identifies the type of dwelling involved in the sale.
+3,MS Zoning,2930,object,Identifies the general zoning classification of the sale.
+13,Neighborhood,2930,object,Physical locations within Ames city limits (map available).
+68,Open Porch SF,2930,int64,Open porch area in square feet.
+0,Order,2930,int64,Observation number.
+19,Overall Cond,2930,int64,Rates the overall condition of the house.
+18,Overall Qual,2930,int64,Rates the overall material and finish of the house.
+66,Paved Drive,2930,object,Paved driveway.
+1,PID,2930,int64,Parcel identification number - can be used with city web site for parcel review.
+72,Pool Area,2930,int64,Pool area in square feet.
+73,Pool QC,13,object,Pool quality.
+23,Roof Matl,2930,object,Roof material.
+22,Roof Style,2930,object,Type of roof.
+80,Sale Condition,2930,object,Condition of sale.
+79,Sale Type,2930,object,Type of sale.
+81,SalePrice,2930,int64,Sale Price (target variable for the Regression).
+71,Screen Porch,2930,int64,Screen porch area in square feet.
+6,Street,2930,object,Type of road access to property.
+39,Total Bsmt SF,2929,float64,Total square feet of basement area.
+55,TotRms AbvGrd,2930,int64,Total rooms above grade (does not include bathrooms).
+10,Utilities,2930,object,Type of utilities available.
+67,Wood Deck SF,2930,int64,Wood deck area in square feet.
+20,Year Built,2930,int64,Original construction date.
+21,Year Remod/Add,2930,int64,Remodel date (same as construction date if no remodeling or additions).
+78,Yr Sold,2930,int64,Year Sold.
